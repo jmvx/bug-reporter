@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+  <meta charset="UTF-8">
+  {% if page.description %}
+  <meta name="description" content="{{ page.description }}">
+  {% endif %}
+  
+  <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css">
+  
+  <title>{{ page.title }}</title>
+  
+</head>
+
+<body>
+  <div id="container">
+    <div id="header">
+      Header
+    </div>
+    <div id="subheader">
+      Subheader
+    </div>
+    <div id="content">
+      {{ content }}
+    </div>
+    <div id="footer">Footer</div>
+  </div>
+</body>
+
+</html>
