@@ -1,4 +1,4 @@
 name: Ryan Govostes
 markdown: redcarpet
 pygments: true
-baseurl: 
+baseurl: "/bug-reporter/"
